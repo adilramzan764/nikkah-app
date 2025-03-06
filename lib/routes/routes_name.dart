@@ -1,0 +1,35 @@
+class RoutesName{
+  static const String onBoardingScreen = '/OnboardingScreen';
+  static const String loginAScreen = '/LogInAScreen';
+  static const String signUpScreen = '/SignUpScreen';
+  static const String loginBScreen = '/LogInBScreen';
+  static const String loginCScreen = '/LogInCScreen';
+  static const String forgetPasswordScreen = '/ForgetPasswordScreen';
+  static const String emailCodeScreen = '/EmailCodeScreen';
+  static const String newPasswordScreen = '/NewPasswordScreen';
+  static const String phoneNumberAuthScreen = '/PhoneNumberAuthScreen';
+  static const String phoneOtpScreen = '/PhoneOtpScreen';
+  static const String locationScreen ='/location';
+  static const String countryScreen ='/CountryScreen';
+  static const String religionScreen ='/religion';
+  static const String languageScreen ='/languages';
+  static const String communityScreen ='/community';
+  static const String educationScreen ='/education';
+  static const String dateOfBirth ='/date-of-birth';
+  static const String genderScreen ='/gender';
+  static const String heightScreen ='/height';
+  static const String drinkScreen ='/drink';
+  static const String workoutScreen ='/workout';
+  static const String starSign ='/star-sign';
+  static const String personalityScreen ='/personality';
+  static const String descriptionScreen ='/description';
+  static const String interestScreen ='/interests';
+  static const String jobTileScreen ='/JobTitleScreen';
+  static const String intentionScreen ='/IntentionsScreen';
+  static const String addphotos_Screen ='/AddPhotos_Screen';
+  static const String photoUploadScreen ='/PhotoUploadScreen';
+  static const String profileSummaryScreen ='/ProfileSummaryScreen';
+  static const String selectionImageScreen = '/ImagePickerScreen';
+  static const String homeScreen = '/MainHomeScreen';
+  static const String freeToNightScreen = '/FreeTonightScreen';
+}

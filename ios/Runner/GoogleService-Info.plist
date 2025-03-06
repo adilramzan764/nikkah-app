@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>994774960958-uja6s1di0dsf7ptfp23a740me53kj4ip.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.994774960958-uja6s1di0dsf7ptfp23a740me53kj4ip</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>994774960958-502fse427bgg68ttu041trnkl5n0b73b.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBqJmt2L88TMfT2zyd0p82LlOk4yXWfyi0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>994774960958</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.nikkahApp</string>
+	<key>PROJECT_ID</key>
+	<string>nikkah-app-b0234</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nikkah-app-b0234.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:994774960958:ios:a6d6d525ca3a74a29fba6f</string>
+</dict>
+</plist>

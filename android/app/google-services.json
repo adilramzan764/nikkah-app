@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994774960958",
+    "firebase_url": "https://nikkah-app-b0234-default-rtdb.firebaseio.com",
+    "project_id": "nikkah-app-b0234",
+    "storage_bucket": "nikkah-app-b0234.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994774960958:android:307b2a523e48841d9fba6f",
+        "android_client_info": {
+          "package_name": "com.example.nikkah_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994774960958-85vvh5p7a1jo6pnpb848baisd2s6c3b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikkah_app",
+            "certificate_hash": "844ff4df2e9c7a1a0b2d0502ed473f584ec42f61"
+          }
+        },
+        {
+          "client_id": "994774960958-gvq3ipjme3g9rotgqklabb1ttllaf2db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhJBf9hEUQrGDYWr8IQFLk2jLpfz2eVJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994774960958-gvq3ipjme3g9rotgqklabb1ttllaf2db.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "994774960958-uja6s1di0dsf7ptfp23a740me53kj4ip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.nikkahApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

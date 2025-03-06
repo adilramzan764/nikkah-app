@@ -1,0 +1,41 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  static const Color greyColor = Colors.grey;
+  static const Color whiteColor = Colors.white;
+  static const Color blackColor = Colors.black;
+  static const Color blueColor = Colors.blueAccent;
+  static const Color goldColor = Color(0xFFFFB301);
+  static const Color skipButton = Color(0xFF666666);
+  static const Color likeButtonColor = Colors.green;
+  static const Color nearbyColor = Color(0xff6E85FE);
+  static const Color activeColor = Color(0xff269714);
+  static const Color silverColor = Color(0xFF459CF8);
+  static const Color dislikeButtonColor = Colors.red;
+  static const Color primaryColor = Color(0xFF53a7f6);
+  static const Color stepperColor = Color(0xff222222);
+  static const Color offlineColor = Color(0xff1B9DF0);
+  static const Color boostButtonColor = Colors.purple;
+  static const Color platinumColor = Color(0xFFD95554);
+  static const Color lightGreyColor = Color(0xffCDCDCD);
+  static const Color secondaryColor = Color(0xFF8c23d4);
+  static const Color messageButtonColor = Colors.orange;
+  static const Color intentionsColor = Color(0xFF444444);
+  static const Color starBtnColorOne = Color(0xff52E5E7);
+  static const Color starBtnColorTwo = Color(0xff130CB7);
+  static const Color likeBtnColorOne = Color(0xffF0FF00);
+  static const Color likeBtnColorTwo = Color(0xff58FB72);
+  static const Color toNightColorOne = Color(0xffF05F57);
+  static const Color toNightColorTwo = Color(0xff360940);
+  static const Color starButtonColor = Colors.blueAccent;
+  static const Color boostBtnColorOne = Color(0xffFF7AF5);
+  static const Color boostBtnColorTwo = Color(0xff513162);
+  static const Color yourTurnColorOne = Color(0xffFCCF31);
+  static const Color yourTurnColorTwo = Color(0xFFF55555);
+  static const Color photoAddIconColor = Color(0xFFF5F5F5);
+  static const Color dislikeBtnColorOne = Color(0xffF05F57);
+  static const Color dislikeBtnColorTwo = Color(0xff581367);
+  static const Color descriptionBtnColorOne = Color(0xffFCCF31);
+  static const Color descriptionBtnColorTwo = Color(0xffF55555);
+  static const Color userProfileScreenCardColor = Color(0xFFF5F5F5);
+}

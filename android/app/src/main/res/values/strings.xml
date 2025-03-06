@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nikkah App</string>
+
+    <!-- Replace with your Facebook App ID -->
+    <string name="facebook_app_id">1965241260666472</string>
+    <string name="fb_login_protocol_scheme">fb1965241260666472</string>
+
+    <!-- Replace with your Facebook Client Token -->
+    <string name="facebook_client_token">e6adde47557d26b0d9fe354e3ebb8041</string>
+</resources>
