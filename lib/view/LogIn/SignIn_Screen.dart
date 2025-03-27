@@ -10,6 +10,7 @@ import '../../res/components/custom_text_field.dart';
 import '../../res/components/custom_signup_button.dart';
 import '../../res/components/custom_repeated_text.dart';
 import '../../view_model/SignIN_Controller.dart';
+import '../../view_model/SigninContoller.dart';
 import '../../view_model/authentication_repository.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -88,6 +89,7 @@ class LogInCScreen extends StatelessWidget {
                   ],
                 ),
                 SizedBox(height: 10.h),
+
                 CustomSignUpButton(
                   text: 'Log in',
                   onPressed: () {
@@ -121,46 +123,49 @@ class LogInCScreen extends StatelessWidget {
                   ],
                 ),
                 SizedBox(height: 16.h,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    GestureDetector(
-                      onTap: () async {
-                        try {
-                          controller.signInWithFacebook();
-                          // Get.snackbar('Success', 'Signed in with Google successfully');
-                        } catch (e) {
-                          Get.snackbar('Error', e.toString());
-                        }
-                      },
-                      child: SvgPicture.asset(
-                        width: 40.w,
-                        height: 40.h,
-                        MyImageClass.facebookImage,
+                Obx(() {
+                  if (controller.isLoading.value) {
+                    return CircularProgressIndicator();
+                  }
+                  return Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      GestureDetector(
+                        onTap: () async {
+                          try {
+                            // Handle Facebook sign-in
+                          } catch (e) {
+                            Get.snackbar('Error', e.toString());
+                          }
+                        },
+                        child: SvgPicture.asset(
+                          width: 40.w,
+                          height: 40.h,
+                          MyImageClass.facebookImage,
+                        ),
                       ),
-                    ),
-                    SizedBox(width: 35.w),
-                    GestureDetector(
-                      onTap: () => controller.signInWithGoogle(),
-                      child: SvgPicture.asset(
-                        width: 40.w,
-                        height: 40.h,
-                        MyImageClass.googleImage,
-                        // Optional: Apply a color filter if needed
+                      SizedBox(width: 35.w),
+                      GestureDetector(
+                        onTap: () => controller.signInWithGoogle(),
+                        child: SvgPicture.asset(
+                          width: 40.w,
+                          height: 40.h,
+                          MyImageClass.googleImage,
+                        ),
                       ),
-                    ),
-                    SizedBox(width: 35.w),
-                    GestureDetector(
-                      onTap: () => Get.toNamed(RoutesName.phoneNumberAuthScreen),
-                      child: SvgPicture.asset(
-                        width: 40.w,
-                        height: 40.h,
-                        MyImageClass.whatsappImage,
-                        // Optional: Apply a color filter if needed
+                      SizedBox(width: 35.w),
+                      GestureDetector(
+                        onTap: () => Get.toNamed(RoutesName.phoneNumberAuthScreen),
+                        child: SvgPicture.asset(
+                          width: 40.w,
+                          height: 40.h,
+                          MyImageClass.whatsappImage,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
+                    ],
+                  );
+                }),
+
                 SizedBox(height: 24.h,),
                 Align(
                   alignment: Alignment.center,

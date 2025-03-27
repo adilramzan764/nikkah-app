@@ -1,6 +1,6 @@
 # nikkah_app
 
-adb connect 192.168.0.103:40251
+adb connect 192.168.0.102:39451
 adb pair 192.168.100.10:38789
 
 A new Flutter project.

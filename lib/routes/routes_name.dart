@@ -32,4 +32,5 @@ class RoutesName{
   static const String selectionImageScreen = '/ImagePickerScreen';
   static const String homeScreen = '/MainHomeScreen';
   static const String freeToNightScreen = '/FreeTonightScreen';
+  static const String linkGoogleAccountScreen = '/LinkGoogleAccountScreen';
 }

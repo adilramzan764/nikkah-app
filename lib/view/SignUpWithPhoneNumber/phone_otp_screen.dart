@@ -38,7 +38,7 @@ class PhoneOtpScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("Verify OTP Code", style: TextStyles.verifyOtp,),
-            SizedBox(height: 8.h),
+            SizedBox(height: 8.h),  
             Text(
               "A code was sent to ${controller.otpModel.phoneNumber}",
               style: TextStyles.verifyOtp.copyWith(

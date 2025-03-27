@@ -9,8 +9,8 @@ import '../Widgets/CustomLoader.dart';
 import '../Widgets/CustomSnackBar.dart'; // Import CustomSnackBar
 import '../view/SignUp/location_screen.dart';
 
-class SignUpController1 extends GetxController {
-  static SignUpController1 get instance => Get.find();
+class SignUpController extends GetxController {
+  static SignUpController get instance => Get.find();
 
   final email = TextEditingController();
   final password = TextEditingController();
@@ -83,6 +83,7 @@ class SignUpController1 extends GetxController {
   Future<void> signupWithGoogle() async {
     try {
       await GoogleSignIn().signOut();
+      _auth.signOut();
 
       final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
       if (googleUser == null) {

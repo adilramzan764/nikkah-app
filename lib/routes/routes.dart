@@ -1,5 +1,6 @@
 import 'package:nikkah_app/view_model/edit_profile_controller.dart';
 
+import '../view/LogIn/AccountLinking.dart';
 import '../view/SignUp/AddPhotosScreen.dart';
 import '../view/SignUp/religion_screen.dart';
 import '../view_model/AddPhotos_Conrtoller.dart';
@@ -70,6 +71,10 @@ class AppRoutes {
       GetPage(
         name: RoutesName.loginCScreen,
         page: () => const LogInCScreen(),
+        transition: Transition.rightToLeft,
+      ),GetPage(
+        name: RoutesName.linkGoogleAccountScreen,
+        page: () =>  LinkGoogleAccountScreen(email: Get.arguments['email']),
         transition: Transition.rightToLeft,
       ),
       GetPage(

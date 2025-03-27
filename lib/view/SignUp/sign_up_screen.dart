@@ -11,6 +11,7 @@ import '../../routes/routes_name.dart';
 import '../../view_model/SignUp_Controller.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../view_model/Signup_Contoller.dart';
 import 'location_screen.dart';
 
 class SignUpScreen extends StatelessWidget {
